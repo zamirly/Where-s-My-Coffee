@@ -1,0 +1,28 @@
+//
+//  README
+//  Where's My Coffee
+//
+//  Created by Tal Zamirly on 11/02/15.
+//  Copyright (c) 2015 Tal Zamirly. All rights reserved.
+//
+
+How to run the 'Where's My Coffee' application using Xcode:
+1) download the zip file from the GitHub repository and unzip.
+2) open the "Where's My Coffee.xcodeproj" file
+3) Choose any of the iphone simulators, eg. iPhone 5 simulator. You can also test the application on a mobile device.
+4) if you choose to use a mobile device, the location manager will find the current location
+for you automatically and will ask you for your permisson, if you use the simulator, go to section 5).
+5) In the iOS simulator choose go Debug > Location > Apple. This will set the current location of the simulator to an Apple Store in San Francisco.
+If you choose to select a different location around the world, go Debug > Location > Custom Location, and set the Latitude and Longtitude values of your desired location.
+Eg: Location for Sydney Opera House - Latitude: -33.8587, Longtitude: 151.214.
+Note: If you choose custom location, the simulator might take a approximately 1-2 minutes to update the location. So try refreshing the application a couple of times for it to activate.
+6)The Application will order the Coffee shops by distance, you can change the sort style to Alphabetical by clicking the 'Sort' button in the bottom right corner.
+7) Choose a Table View Row to select the Coffee Shop, there you will see information about the store, and an ability to go to the Maps application to view the store on the map.
+
+I used the GET approach provieded by the Foursqare API to get the information needed for this application.
+I got the application to request a location update, and once the location has been provided, the application sends the coordinates to the Foursquare API and gets back the nearby Coffee shops.
+The application then makes the assumption that the user wants to arrange the Coffee shops by distance, but gives them the ability to order by name alphebatically.
+
+WMCUnitTesting.m is a test class containing uni tests for the application. The application tests two locations (Eiffel Tower, Paris and Opera House, Sydney), and an invalid (nil) location.
+
+Tal Zamirly

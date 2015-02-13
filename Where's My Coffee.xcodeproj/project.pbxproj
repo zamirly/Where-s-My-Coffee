@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29738E1C1A8D79FC0054F53F /* WMCUnitTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 29738E1B1A8D79FC0054F53F /* WMCUnitTesting.m */; };
+		29738E1E1A8D98B50054F53F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 29738E1D1A8D98B50054F53F /* README */; };
 		29FD3F981A89A43F00D4105B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3F971A89A43F00D4105B /* main.m */; };
 		29FD3F9B1A89A43F00D4105B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3F9A1A89A43F00D4105B /* AppDelegate.m */; };
-		29FD3F9E1A89A43F00D4105B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3F9D1A89A43F00D4105B /* ViewController.m */; };
 		29FD3FA11A89A43F00D4105B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FD3F9F1A89A43F00D4105B /* Main.storyboard */; };
 		29FD3FA31A89A43F00D4105B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FD3FA21A89A43F00D4105B /* Images.xcassets */; };
 		29FD3FA61A89A43F00D4105B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29FD3FA41A89A43F00D4105B /* LaunchScreen.xib */; };
-		29FD3FB21A89A44000D4105B /* Where_s_My_CoffeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3FB11A89A44000D4105B /* Where_s_My_CoffeeTests.m */; };
+		29FD3FBD1A89A46A00D4105B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FD3FBC1A89A46A00D4105B /* CoreLocation.framework */; };
+		29FD3FC31A8ADB3900D4105B /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3FC21A8ADB3900D4105B /* HomeTableViewController.m */; };
+		29FD3FC91A8B172C00D4105B /* CoffeeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3FC81A8B172C00D4105B /* CoffeeStore.m */; };
+		29FD3FCC1A8C47DD00D4105B /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FD3FCB1A8C47DD00D4105B /* StoreViewController.m */; };
+		29FD3FCE1A8C5D8400D4105B /* bodyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29FD3FCD1A8C5D8400D4105B /* bodyBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29738E1B1A8D79FC0054F53F /* WMCUnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCUnitTesting.m; sourceTree = "<group>"; };
+		29738E1D1A8D98B50054F53F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
 		29FD3F921A89A43F00D4105B /* Where's My Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's My Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FD3F961A89A43F00D4105B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29FD3F971A89A43F00D4105B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29FD3F991A89A43F00D4105B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29FD3F9A1A89A43F00D4105B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29FD3F9C1A89A43F00D4105B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29FD3F9D1A89A43F00D4105B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29FD3FA01A89A43F00D4105B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29FD3FA21A89A43F00D4105B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		29FD3FA51A89A43F00D4105B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		29FD3FAB1A89A44000D4105B /* Where's My CoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where's My CoffeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FD3FB01A89A44000D4105B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29FD3FB11A89A44000D4105B /* Where_s_My_CoffeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Where_s_My_CoffeeTests.m; sourceTree = "<group>"; };
+		29FD3FBC1A89A46A00D4105B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		29FD3FC11A8ADB3900D4105B /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		29FD3FC21A8ADB3900D4105B /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		29FD3FC71A8B172C00D4105B /* CoffeeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeStore.h; path = ../CoffeeStore.h; sourceTree = "<group>"; };
+		29FD3FC81A8B172C00D4105B /* CoffeeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeStore.m; path = ../CoffeeStore.m; sourceTree = "<group>"; };
+		29FD3FCA1A8C47DD00D4105B /* StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		29FD3FCB1A8C47DD00D4105B /* StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		29FD3FCD1A8C5D8400D4105B /* bodyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bodyBackground.jpg; path = ../../shareNotesPlus/shareNotesPlus/bodyBackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FD3FBD1A89A46A00D4105B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +79,7 @@
 				29FD3F941A89A43F00D4105B /* Where's My Coffee */,
 				29FD3FAE1A89A44000D4105B /* Where's My CoffeeTests */,
 				29FD3F931A89A43F00D4105B /* Products */,
+				29FD3FBB1A89A45400D4105B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +95,13 @@
 		29FD3F941A89A43F00D4105B /* Where's My Coffee */ = {
 			isa = PBXGroup;
 			children = (
-				29FD3F991A89A43F00D4105B /* AppDelegate.h */,
-				29FD3F9A1A89A43F00D4105B /* AppDelegate.m */,
-				29FD3F9C1A89A43F00D4105B /* ViewController.h */,
-				29FD3F9D1A89A43F00D4105B /* ViewController.m */,
 				29FD3F9F1A89A43F00D4105B /* Main.storyboard */,
-				29FD3FA21A89A43F00D4105B /* Images.xcassets */,
-				29FD3FA41A89A43F00D4105B /* LaunchScreen.xib */,
+				29FD3FC11A8ADB3900D4105B /* HomeTableViewController.h */,
+				29FD3FC21A8ADB3900D4105B /* HomeTableViewController.m */,
+				29FD3FCA1A8C47DD00D4105B /* StoreViewController.h */,
+				29FD3FCB1A8C47DD00D4105B /* StoreViewController.m */,
+				29FD3FC71A8B172C00D4105B /* CoffeeStore.h */,
+				29FD3FC81A8B172C00D4105B /* CoffeeStore.m */,
 				29FD3F951A89A43F00D4105B /* Supporting Files */,
 			);
 			path = "Where's My Coffee";
@@ -96,6 +110,12 @@
 		29FD3F951A89A43F00D4105B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				29738E1D1A8D98B50054F53F /* README */,
+				29FD3F991A89A43F00D4105B /* AppDelegate.h */,
+				29FD3F9A1A89A43F00D4105B /* AppDelegate.m */,
+				29FD3FCD1A8C5D8400D4105B /* bodyBackground.jpg */,
+				29FD3FA21A89A43F00D4105B /* Images.xcassets */,
+				29FD3FA41A89A43F00D4105B /* LaunchScreen.xib */,
 				29FD3F961A89A43F00D4105B /* Info.plist */,
 				29FD3F971A89A43F00D4105B /* main.m */,
 			);
@@ -105,7 +125,7 @@
 		29FD3FAE1A89A44000D4105B /* Where's My CoffeeTests */ = {
 			isa = PBXGroup;
 			children = (
-				29FD3FB11A89A44000D4105B /* Where_s_My_CoffeeTests.m */,
+				29738E1B1A8D79FC0054F53F /* WMCUnitTesting.m */,
 				29FD3FAF1A89A44000D4105B /* Supporting Files */,
 			);
 			path = "Where's My CoffeeTests";
@@ -117,6 +137,14 @@
 				29FD3FB01A89A44000D4105B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29FD3FBB1A89A45400D4105B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FD3FBC1A89A46A00D4105B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +196,7 @@
 				TargetAttributes = {
 					29FD3F911A89A43F00D4105B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 82JBRPRWL8;
 					};
 					29FD3FAA1A89A44000D4105B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29738E1E1A8D98B50054F53F /* README in Resources */,
 				29FD3FA11A89A43F00D4105B /* Main.storyboard in Resources */,
 				29FD3FA61A89A43F00D4105B /* LaunchScreen.xib in Resources */,
 				29FD3FA31A89A43F00D4105B /* Images.xcassets in Resources */,
+				29FD3FCE1A8C5D8400D4105B /* bodyBackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29FD3F9E1A89A43F00D4105B /* ViewController.m in Sources */,
+				29FD3FC31A8ADB3900D4105B /* HomeTableViewController.m in Sources */,
+				29FD3FC91A8B172C00D4105B /* CoffeeStore.m in Sources */,
 				29FD3F9B1A89A43F00D4105B /* AppDelegate.m in Sources */,
 				29FD3F981A89A43F00D4105B /* main.m in Sources */,
+				29FD3FCC1A8C47DD00D4105B /* StoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29FD3FB21A89A44000D4105B /* Where_s_My_CoffeeTests.m in Sources */,
+				29738E1C1A8D79FC0054F53F /* WMCUnitTesting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Where's My Coffee/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Where's My Coffee/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +447,7 @@
 				29FD3FB71A89A44000D4105B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29FD3FB81A89A44000D4105B /* Build configuration list for PBXNativeTarget "Where's My CoffeeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +456,7 @@
 				29FD3FBA1A89A44000D4105B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
